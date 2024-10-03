@@ -1,0 +1,31 @@
+package loginsystem;
+import java.util.Scanner;
+
+public class Loginsystemapp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String USERNAME="Jessica";
+		String Password="jessie123";
+		Scanner scanner=new Scanner(System.in);
+		//prompt password and username
+		System.out.println("Enter your username");
+		String username=
+		scanner.nextLine();
+		
+		System.out.println("Enter your password");
+		String password =
+				scanner.nextLine();
+		//check credentials
+		if(USERNAME.equals(username) && PASSWORD.equals(password)) {
+			System.out.println("Login successful");
+		}
+		else {
+			Syst
+		}
+		
+				
+
+	}
+
+}
